@@ -1,0 +1,679 @@
+.img-fliud {
+    height: auto;
+    max-width: 100%; }
+
+/*INDEX*/ 
+
+/*HEADER*/
+
+/*GRID HEADER*/ 
+
+#grillaInicio{
+
+    display: grid;
+    align-items: center;
+    margin-top: 1%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 200px; 
+    grid-template-areas: "logo" "titulo";
+    margin-bottom: 2%;
+  }
+
+  #grillaLogo{
+    margin-left: 35%;
+    grid-area: "logo";
+  }
+
+  #grillaTitulo{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    grid-area: "titulo";
+    margin-top: 10px;
+    color: rgb(252, 88, 24);
+
+  }
+
+  /* MENU */
+#tituloBlanco{
+    color: white;    
+}
+
+#navbarDropdown {
+    color: white;
+}
+nav{
+
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: coral;
+    font-size: 25px;
+}
+nav{
+    background-image: linear-gradient(to right, coral , rgb(104, 43, 18));
+    color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+#tituloCatalogo{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 4vw;
+    color: black;
+}
+
+ /*GRID CAJON Y CELULAR*/
+
+ #grilla{
+    display: grid;
+    margin-top: 1%;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 450px; 
+    grid-template-areas: "foto" "foto1";
+    margin-bottom: 15%;
+  }
+  #grillaUno{
+   grid-area: "foto1";
+ }
+ 
+  #grillaDos{
+    background-color: white;
+    grid-area: "foto";
+    margin-top: 10px;
+  
+  }
+  
+  #botonGrid{
+   align-items: center;
+   font-size: 1vw;
+ }
+
+/*FOOTER */
+
+.envioGratis{
+    background-color: black;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    letter-spacing: 7px;
+    margin-top: 90px;
+
+}
+
+.formasPago{
+    background-color: rgb(231, 59, 36);
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    text-align: center;
+    letter-spacing: 7px;
+    margin-top: 10px;
+    
+}
+
+#pieTodos{
+    margin-top: 5%;
+    margin-bottom: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 150px;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+#pieUno {
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    width: 33%;
+    height: auto;
+    max-width: 100%; 
+ }
+
+ #pieDos {
+    align-items: center;
+   text-align: center;
+   width: 33%;
+   height: auto;
+   max-width: 100%;   
+}
+
+ #pieTres {
+     align-items: center;
+     text-align: center;
+     margin-top: 5%;
+     width: 20%;
+     height: auto;
+     max-width: 100%; 
+ }
+
+ .pieTitulo{
+    font-size: 2vw;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.copyPie{
+    background-color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 4px;
+
+ }
+
+ /*HOLA*/
+
+h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center; 
+    color: rgb(252, 88, 24);
+    }
+h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    text-align: center; 
+    color: rgb(252, 88, 24);
+    
+}
+p{
+    color: rgb(2, 8, 41);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.bienvenidos{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 20px;
+    text-align: center;
+    color: rgb(252, 88, 24);
+
+}
+
+.bienvenidos{
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+     }
+     
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+
+#formulario1{
+
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 20px;
+        color: white;
+    }
+
+#formularioR{
+    background-color: rgb(252, 88, 24);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    height: 500px;
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.form-label{
+    font-size: 1vw;
+}
+
+
+.subrayadoNo{
+    text-decoration: none;
+}
+
+.colorNegro{
+    background-color:violet;
+}
+
+.textoBlanco{
+    font-size: 20px;
+    color: rgb(105, 48, 48);
+}
+
+/*CARRITOS Y PROMOCIONES*/
+
+.tituloCarrito{
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 35px;
+    color: orangered;
+}
+
+.carritoDia{
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+
+#carritoPromo:hover {
+    transform: scale(1.10 , 1.10);
+}
+
+.cambiO{
+    background-color: darksalmon;
+    font-size: 20px;
+    color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#gridPromo{
+    display: grid;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 400px; 
+    grid-template-areas: "foto1" "foto2"
+                         "foto3" "foto"
+  }
+  #gridUno{
+   grid-area: "foto1";
+ }
+ 
+  #gridDos{
+    grid-area: "foto2";
+  }
+  #gridTres{
+    grid-area: "foto3";
+  } 
+  #gridCuatro{
+    grid-area: "foto4";
+  }
+/*ESTILO PAGES*/
+
+.fotoFamilia{
+
+margin-top: 5%;
+margin-left: 10%;
+margin-bottom: 5%;
+margin-right: 10%;
+}
+
+
+#logoUno{
+    margin-left: 40%;
+    margin-bottom: 0;
+  
+}
+/*COMO COMPRAR*/
+
+.backImagen{
+    margin-top: 20px;
+    margin-left: 11px;
+    background: url(../imagenes/backimagen.png);
+    height: 240px;
+    width: 98%;
+}
+
+
+#gridComprar{
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-areas: "foto1 foto2 foto3"
+                        "texto1 texto2 texto3";
+    grid-template-rows: 50% 50%;
+  
+} 
+.foto1{
+    grid-area: foto1;
+    margin-left: 20%;
+}
+
+#texto1{
+    background-color: rgb(270,230,185);
+    grid-area: texto1;
+    margin-left: 20%;
+}
+
+#foto2{
+    margin-left: 20%;
+    grid-area: foto2;
+}
+#texto2{
+    grid-area: texto2;
+    background-color: rgb(250,205,155);
+}
+
+#foto3{
+    margin-left: 20%;
+    grid-area: foto3;
+    align-items: center;
+}
+#texto3{
+    grid-area: texto3;
+    text-align:center;
+    background-color: rgb(222, 184, 135);
+    
+}
+
+#cuentaIngreso{
+    margin-top: 3%;
+    margin-left: 30%;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+}
+.tituloReceta{
+
+    font-size: 40px;
+    text-align:center;
+    letter-spacing: 15px;
+} 
+
+/*contacto*/
+.formulario {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+  
+  .formCompleto {
+    font-family: 'Nanum Pen Script', cursive;
+    margin-bottom: 10%; }
+
+    #grillaUbicacion{
+        display: grid;
+        margin-top: 1%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 450px; 
+        grid-template-areas: "texto" "mapa";
+        margin-bottom: 15%;
+      }
+      #grillaTexto{
+       grid-area: "texto";
+       text-align: center;
+       font-family: 'Barlow Condensed', sans-serif;
+       font-size: 30px;
+       margin-top: 30%;
+
+     }
+     
+      #grillaMapa{
+        grid-area: "mapa";
+        margin-top: 10px;
+      }
+
+    #liveAlertBtn{
+        margin-left: 40%;
+    }
+
+    /*PRODUCTOS*/
+   
+    .contenedorProductos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        margin-left: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      .descripcionP {
+      
+        h4{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.5vw;
+        letter-spacing: 0.01vw;}
+      
+    .precioProducto{
+            font-family: 'Barlow Condensed', sans-serif;
+        }
+      
+      }
+
+    #botonVermas{
+        align-items: center;
+    }
+    
+/*MEDIA QUERY*/ 
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+    
+
+}
+@media only screen and (max-width: 992px) {
+    /*como comprar*/ 
+    #gridComprar{
+        display: grid;
+        gap: 20px;
+        grid-template-rows: 30% 30% 30%;
+        grid-template-areas: "foto1 texto1"
+                            "foto2 texto2"
+                            "foto3 texto3";
+        grid-template-columns: 50%;
+    } 
+    
+    .textoBlanco{
+        font-size: 15px;
+        color: crimson;
+    }
+    
+    #texto1{
+        background-color: white;
+        grid-area: texto1;
+    
+    }
+    
+    #texto2{
+        grid-area: texto2;
+        background-color: white;
+    }
+    #texto3{
+        margin-top: 10%;
+        grid-area: texto3;
+        text-align:center;
+        background-color: white;
+    }
+
+    .backImagen{
+        margin-top: 20px;
+        background: none;
+        height: 0px;
+    }
+    
+    /*RECETAS Y TIPS*/ 
+
+    .card-text{
+        font-size: 18px;
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+/*INICIO*/
+#grilla{
+    display: grid;
+    margin-top: 1%;
+    grid-template-rows: 220px; 
+    grid-template-areas: "foto" "foto1";
+    margin-bottom: 15%;
+  }
+
+.card-body{
+    height: 120px;
+
+}
+.card-text{
+    font-size: 15px;
+}
+.copyPie{
+    background-color: rgba(231, 17, 17, 0.781);
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 0px;
+
+ }
+
+ .envioGratis{
+    
+    letter-spacing: 2px;
+
+}
+
+.formasPago{
+    letter-spacing: 2px;
+}
+
+/*HOLA*/ 
+
+.textoLargo{
+    font-size: 20px;
+}
+#formularioR{
+    background-color: rgb(252, 88, 24);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    height: 700px;
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.form-label{
+    font-size: 1vw;
+}
+
+.bienvenidos{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    color: rgb(100, 6, 50);
+}
+#gridComprar{
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-areas: "foto1 texto1"
+                        "foto2 texto2"
+                        "foto3 texto3";
+    grid-template-columns: 50%;
+} 
+
+.textoBlanco{
+    font-size: 15px;
+    color: crimson;
+}
+
+#texto1{
+    background-color: white;
+    grid-area: texto1;
+
+}
+
+#texto2{
+    grid-area: texto2;
+    background-color: white;
+}
+#texto3{
+    margin-top: 10%;
+    grid-area: texto3;
+    text-align:center;
+    background-color: white;
+}
+
+/*PRODUCTOS*/
+
+.contenedorProductos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  /*CARRITOS Y PRMOCIONES*/ 
+
+  .textoCombo{
+    font-size: 20px;
+  }
+
+  #gridPromo{
+    display: grid;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    gap: 30px;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 400px; 
+    grid-template-areas: "foto1" "foto2"
+                         "foto3" "foto"
+  }
+  
+}
+
+@media only screen and (max-width: 450px) {
+
+    #gridPromo{
+        display: grid;;
+        gap: 5px;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 250px; 
+        grid-template-areas: "foto1" "foto2"
+                             "foto3" "foto"
+      }
+
+      .textoCombo{
+        font-size: 15px;
+      }
+
+      .tituloCarrito{
+        font-size: 20px;
+
+      }
+
+    /*RECETAS Y TIPS*/ 
+
+    .card-text{
+        font-size: 18px;
+    }
+
+    .tituloReceta{
+        font-size: 20px;
+        letter-spacing: 8px;
+    }
+    
+}
